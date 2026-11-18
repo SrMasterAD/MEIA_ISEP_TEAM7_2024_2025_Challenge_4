@@ -1,8 +1,22 @@
-# deepWheat
+<div align="center">
+
+# DeepWheat Drones
 
 **Precision Agriculture Multi-Agent System**
 
-This project simulates a sophisticated multi-agent system for precision agriculture using SPADE agents. Multiple autonomous drones collaborate to monitor wheat fields, detect diseases, and efficiently apply fertilizers or pesticides based on real-time environmental conditions and crop needs.
+A fleet of autonomous drones that looks after wheat fields. Scout drones photograph every plant and spot disease with the DeepWheat image model, payload drones spray fungicide or fertiliser where it's needed, and SPADE agents decide which drone does what based on battery, wind, weather and the crop calendar.
+
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SPADE](https://img.shields.io/badge/SPADE-4.0-5C2D91?style=for-the-badge&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![PX4](https://img.shields.io/badge/PX4-0C1E3C?style=for-the-badge&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+[Objectives](#objectives) · [Features](#features) · [Architecture](#system-architecture) · [Agents](#agent-specifications) · [Setup](#environment-setup) · [Behaviour](#system-behavior) · [Team](#team)
+
+<sub>Challenge 4 · Master's in Artificial Intelligence Engineering · <a href="https://www.isep.ipp.pt">ISEP</a>, Porto · 2024–25</sub>
+
+</div>
 
 ---
 
@@ -338,7 +352,45 @@ This project is developed for research and educational purposes in precision agr
 
 ---
 
-## 🤝 Contributing
+## Team
+
+<table align="center">
+  <tr>
+    <td align="center" width="150">
+      <a href="https://github.com/Marco-Nobrega-Andrade"><img src="https://github.com/Marco-Nobrega-Andrade.png?size=200" width="100" alt="Marco Andrade"/></a><br>
+      <b>Marco Andrade</b><br>
+      <a href="https://github.com/Marco-Nobrega-Andrade">@Marco-Nobrega-Andrade</a>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/SrMasterAD"><img src="https://github.com/SrMasterAD.png?size=200" width="100" alt="David Dias"/></a><br>
+      <b>David Dias</b><br>
+      <a href="https://github.com/SrMasterAD">@SrMasterAD</a>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/nelsonnovais"><img src="https://github.com/nelsonnovais.png?size=200" width="100" alt="Nelson Novais"/></a><br>
+      <b>Nelson Novais</b><br>
+      <a href="https://github.com/nelsonnovais">@nelsonnovais</a>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/ricardoham"><img src="https://github.com/ricardoham.png?size=200" width="100" alt="Ricardo Manoel"/></a><br>
+      <b>Ricardo Manoel</b><br>
+      <a href="https://github.com/ricardoham">@ricardoham</a>
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/binaps"><img src="https://github.com/binaps.png?size=200" width="100" alt="Sabrina"/></a><br>
+      <b>Sabrina</b><br>
+      <a href="https://github.com/binaps">@binaps</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<div align="center">
+
+**DeepWheat Drones** · *Autonomous Multi-Agent Precision Agriculture* 🌾🚁
+
+</div>
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests to improve the deepWheat system.
 
