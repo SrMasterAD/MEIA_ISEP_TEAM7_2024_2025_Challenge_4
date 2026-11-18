@@ -1,0 +1,15 @@
+spade==4.0.3
+aioxmpp==0.13.3
+aiohttp==3.10.4
+lxml==4.9.4
+pyopenssl>=22.0.0
+babel>=2.3
+sortedcontainers
+dnspython<3.0
+slixmpp==1.9.1
+pillow
+numpy
+keras
+tensorflow>=2.10.0
+requests
+termcolor
